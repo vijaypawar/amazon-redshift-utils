@@ -8,6 +8,7 @@ History:
 2015-10-31 ericfe Added cast tp increase size of returning constraint name
 2016-05-24 chriz-bigdata Added support for BACKUP NO tables
 **********************************************************************************************/
+CREATE SCHEMA IF NOT EXISTS admin;
 CREATE OR REPLACE VIEW admin.v_generate_tbl_ddl
 AS
 SELECT
